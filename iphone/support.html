@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<style>
+    .search1 {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+
+
+    }
+
+    .color7 {
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+
+    }
+
+    .text {
+        position: absolute;
+        margin: -350px 0 0 500px;
+
+    }
+
+    .text1 {
+        position: absolute;
+        margin: -250px 0 0 200px;
+
+    }
+
+    .all p a:link,
+    .all p a:visited {
+        font-family: arial;
+        font-size: 14px;
+        color: gray;
+        text-decoration: none;
+
+
+    }
+
+    .all p a:hover {
+        color: #3853d8;
+        text-decoration: underline;
+    }
+
+    .all1 p a:link,
+    .all1 p a:visited {
+        font-family: arial;
+        font-size: 24px;
+        color: #3853d8;
+        text-decoration: none;
+
+
+    }
+
+    .all1 p a:hover {
+        color: #3853d8;
+        text-decoration: underline;
+    }
+
+    .margin {
+        margin: 0 0 40px 10px;
+    }
+
+    @media only screen and (max-width:734px) {
+        .margin {
+            margin: 0 0 0 0;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg bg-dark  navbar-dark">
+            <div class="container mb--5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand margin me-5" href="index.html">
+                    <svg enable-background="new 0 0 14 44" height="44" viewBox="0 0 14 44" width="14"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="m0 0h14v44h-14z" fill="none" />
+                        <path
+                            d="m13.0729 17.5214c-.093.0723-1.7248.9915-1.7248 3.0364 0 2.3651 2.0759 3.2017 2.1379 3.2223-.0103.0516-.3305 1.1464-1.0948 2.2618-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6835-.9089-2.4787-2.0243c-.9192-1.3117-1.6628-3.3463-1.6628-5.2776 0-3.0984 2.014-4.7406 3.9969-4.7406 1.0535 0 1.9313.692 2.5923.692.63 0 1.6112-.7333 2.8092-.7333.4545.0001 2.0864.0415 3.1605 1.5803zm-3.7284-2.8918c.4957-.5887.8469-1.4046.8469-2.2205 0-.1136-.0103-.2272-.031-.3202-.8056.031-1.7661.5371-2.3445 1.2084-.4544.5164-.8779 1.3323-.8779 2.1586 0 .1239.0207.2479.031.2892.0516.0103.1343.0207.2169.0207.723-.0001 1.6318-.4855 2.1586-1.1362z"
+                            fill="#fff" />
+                    </svg>
+                </a>
+                <a class="nav-link active d-block d-md-none" href="#" aria-current="page"><svg height="44"
+                        viewBox="0 0 13 44" width="13" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="m0 44h13v-44h-13z" />
+                            <path
+                                d="m12 25.9c0 .6-.5 1.1-1.1 1.1h-8.8c-.6 0-1.1-.5-1.1-1.1v-7.9c0-.5.5-1 1.1-1h8.9c.6 0 1.1.5 1.1 1.1v7.8zm-5.5-11.9c1.2 0 2.1.9 2.3 2h-4.6c.2-1.1 1.1-2 2.3-2zm4.4 2h-1.1c-.2-1.7-1.6-3-3.3-3s-3.1 1.3-3.3 3h-1.1c-1.2 0-2.1.9-2.1 2.1v7.9c0 1.1.9 2 2.1 2h8.9c1.1 0 2.1-.9 2.1-2.1v-7.9c-.1-1.1-1-2-2.2-2z"
+                                fill="#fff" />
+                        </g>
+                    </svg><span class="visually-hidden">(current)</span></a>
+
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                        <a class="nav-link active me-4 mt-2" href="store.html" aria-current="page">Store <span
+                                class="visually-hidden">(current)</span></a>
+
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Mac <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">ipad <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">iphone <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Watch <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Airpods <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Tv &amp; Home <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Only on Apple <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="#" aria-current="page">Accossories <span
+                                class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 mt-2" href="support.html" aria-current="page">Support <span
+                                class="visually-hidden">(current)</span></a>
+
+                        <a class="nav-link active me-4  " href="#" aria-current="page">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="88" viewBox="0 0 15 88">
+                                <rect width="15" height="44" fill="none" />
+                                <path
+                                    d="M13.98,27.343l-3.5-3.5a5.436,5.436,0,1,0-.778.777l3.5,3.5a.55.55,0,1,0,.778-.778ZM1.959,20.418a4.319,4.319,0,1,1,4.319,4.32A4.323,4.323,0,0,1,1.959,20.418Z"
+                                    fill="#fff" />
+
+                            </svg>
+                            </svg><span class="visually-hidden">(current)</span></a><span
+                            class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active me-4 d-none d-md-block" href="#" aria-current="page">
+                            <svg height="44" viewBox="0 0 13 44" width="13" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="m0 44h13v-44h-13z" />
+                                    <path
+                                        d="m12 25.9c0 .6-.5 1.1-1.1 1.1h-8.8c-.6 0-1.1-.5-1.1-1.1v-7.9c0-.5.5-1 1.1-1h8.9c.6 0 1.1.5 1.1 1.1v7.8zm-5.5-11.9c1.2 0 2.1.9 2.3 2h-4.6c.2-1.1 1.1-2 2.3-2zm4.4 2h-1.1c-.2-1.7-1.6-3-3.3-3s-3.1 1.3-3.3 3h-1.1c-1.2 0-2.1.9-2.1 2.1v7.9c0 1.1.9 2 2.1 2h8.9c1.1 0 2.1-.9 2.1-2.1v-7.9c-.1-1.1-1-2-2.2-2z"
+                                        fill="#fff" />
+                                </g>
+                            </svg><span class="visually-hidden">(current)</span></a><span
+                            class="visually-hidden">(current)</span></a>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row d-none d-md-block ">
+            <div class="col">
+                <img src="iimages/support1.jpg" alt="" class="img-fluid">
+                <p class="display-2 fw-bold text-white text">APPLE Support</p>
+            </div>
+
+        </div>
+        <div class="row d-block d-md-none">
+            <div class="col">
+                <img src="iimages/support14.jpg" alt="" class="img-fluid">
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="h4 text-black text-center d-block d-md-none my-4">APPLE Support</p>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-6">
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support2.png" alt="" class="img-fluid">
+                        <p class="ms-5 fs-6 text-secondary"><a href="#">iPhone</a></p>
+                    </div>
+                </div>
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support3.png" alt="" class="img-fluid">
+                        <p class=" ms-5 fs-6 text-secondary"> <a href="#">mac</a></p>
+                    </div>
+
+                </div>
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support4.png" alt="" class="img-fluid">
+                        <p class=" ms-5 fs-6 text-secondary"> <a href="#">ipad</a></p>
+                    </div>
+
+                </div>
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support6.png" alt="" class="img-fluid">
+                        <p class=" ms-5 fs-6 text-secondary"> <a href="#">Watch</a></p>
+                    </div>
+
+                </div>
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support5.png" alt="" class="img-fluid">
+                        <p class=" ms-5 fs-6 text-secondary"> <a href="#">AirPods</a></p>
+                    </div>
+
+                </div>
+                <div class="col col-lg-2">
+                    <div class="all">
+                        <img src="iimages/support7.png" alt="" class="img-fluid">
+                        <p class=" ms-5 fs-6 text-secondary"> <a href="#">music</a></p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container-fluid my-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-center display-3 fw-bold text-black ">Search for topics</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search support">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col d-none d-md-block">
+                <img src="iimages/support12.jpg" alt="" class="img-fluid">
+                <div class="text1">
+                    <p class="text-white h2">Get Support</p>
+                    <p class="text-white fs-4 ">Choose a product and we’ll find you the best <br>solution.</p>
+                    <div class="all1">
+                        <p><a href="#">start now</a></p>
+                        <p><a href="#">Download the apple support app</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col d-block d-md-none">
+                <img src="iimages/support13.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="container d-block d-md-none">
+            <div class="row">
+                <div class="col">
+                    <p class="text-black h5 mt-4">Get Support</p>
+                    <p class="text-black fs-6 ">Choose a product and we’ll find you the best <br>solution.</p>
+                    <div class="all1">
+                        <p><a href="#">start now</a></p>
+                        <p><a href="#">Download the apple support app</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container d-none d-md-block my-3">
+            <div class="row row-cols-1">
+                <div class="col col-lg-6">
+                    <img src="iimages/support15.png" alt="" class="img-fluid">
+                </div>
+                <div class="col col-lg-6 my-3">
+                    <p class="h1 text-black">Accidents happen.<br> AppleCare+ covers <br>them.</p>
+                    <p class="fs-3 text-secondary">Get unlimited repairs for accidental<br> damage protection, 24/7
+                        priority access<br> to Apple
+                        experts, and more.</p>
+                    <div class="all1">
+                        <p><a href="#">Learn more about AppleCare+</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container d-block d-md-none my-3">
+            <div class="row row-cols-1">
+                <div class="col col-lg-6">
+                    <img src="iimages/support15.png" alt="" class="img-fluid">
+                </div>
+                <div class="col col-lg-6 text-center  my-3">
+                    <p class="display-5  text-black">Accidents happen.<br> AppleCare+ covers <br>them.</p>
+                    <p class="h5 text-secondary">Get unlimited repairs for accidental<br> damage protection, 24/7
+                        priority access<br> to Apple
+                        experts, and more.</p>
+                    <div class="all1">
+                        <p><a href="#">Learn more about AppleCare+</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4 d-none d-md-block">
+            <div class="row row-cols-1">
+                <div class="col col-lg-6  my-3">
+                    <p class="fs-1  text-black">My Support</p>
+                    <p class="fs-3 text-secondary">Get up to date information about your<br> Apple products in one
+                        place
+                        including<br> repairs, tech support cases, and much<br> more.</p>
+                    <div class="all1">
+                        <p><a href="#">Sign in to My Support</a></p>
+                    </div>
+
+                </div>
+                <div class="col col-lg-6">
+                    <img src="iimages/support16.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container my-4 d-block d-md-none">
+            <div class="row row-cols-1">
+                <div class="col col-lg-6">
+                    <img src="iimages/support16.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col col-lg-6 text-center my-3">
+                    <p class="display-3  text-black">My Support</p>
+                    <p class="h5 text-secondary">Get up to date information about your<br> Apple products in one place
+                        including<br> repairs, tech support cases, and much<br> more.</p>
+                    <div class="all1">
+                        <p><a href="#">Sign in to My Support</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="h3 text-black">Safe and reliable repairs</p>
+                    <p class="text-secondary fs-5">At Apple, every product we make is built to last. We design durable,
+                        easy-to-use devices with
+                        innovative<br> features that
+                        customers depend on, all while protecting their privacy and data. Customers should have
+                        <br>access
+                        to safe, reliable, and
+                        secure repairs with genuine Apple parts if they need them.
+                    </p>
+                    <p class="fs-5 text-secondary d-inline">Learn more about Apple’s approach to expanding access to
+                        safe and
+                        reliable repairs.</p>
+                    <div class="all1 d-inline">
+                        <p class="d-inline"><a href="#"> View (PDF)</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="h3 text-black">Beware of counterfeit parts</p>
+                    <p class="text-secondary fs-5">Some counterfeit and third party power adapters and batteries may not
+                        be designed properly and
+                        could <br>result in safety
+                        issues. To ensure you receive a genuine Apple battery during a battery replacement, we
+                        <br>recommend
+                        visiting an Apple Store
+                        or Apple Authorized Service Provider. If you need a replacement <br>adapter to charge your Apple
+                        device, we recommend
+                        getting an Apple power adapter.
+                    </p>
+                    <p class="text-secondary fs-5">Also non-genuine replacement displays may have compromised visual
+                        quality and may fail to work<br>
+                        correctly.
+                        Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid d-none d-md-block" style="  background: rgb(240, 237, 237);">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="my-3">
+                            <img src="iimages/logo5.png" alt="" class="color7 mb-2">
+                            <p class="d-inline h5 text-black ms-3">iphone</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-3">
+                <div class="row row-cols-lg-5">
+                    <div class="col col-lg-2">
+                        <p class="text-black h5">Shop and Learn</p>
+                        <div class="all">
+                            <p><a href="#">store</a></p>
+                            <p><a href="#">Mac</a></p>
+                            <p><a href="#">iPad</a></p>
+                            <p><a href="#">iPhone</a></p>
+                            <p><a href="#">Watch</a></p>
+                            <p><a href="#">AirPods</a></p>
+                            <p><a href="#">TV & Home</a></p>
+                            <p><a href="#">AirTag</a></p>
+                            <p><a href="#">accessories</a></p>
+                            <p><a href="#">Gift Cards</a></p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-2">
+
+                        <p class="text-black h5">Services</p>
+                        <div class="all">
+                            <p><a href="#">Apple Music
+                                </a></p>
+                            <p><a href="#">Apple TV+
+                                </a></p>
+                            <p><a href="#">Apple Fitness+
+                                </a></p>
+                            <p><a href="#">Apple News+</a></p>
+                            <p><a href="#">Apple Arcade</a></p>
+                            <p><a href="#">iCloud</a></p>
+                            <p><a href="#">Apple One</a></p>
+                            <p><a href="#">Apple Card</a></p>
+                            <p><a href="#">Apple Books</a></p>
+                            <p><a href="#">Apple Podcasts</a></p>
+                            <p><a href="#">App Store</a></p>
+                            <p class="mt-2 h4">Account</p>
+                            <p><a href="#">Manage Your Apple ID</a></p>
+                            <p><a href="#">Apple Store Account</a></p>
+                            <p><a href="#">iCloud.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3">
+                        <p class="text-black h5">Apple Store</p>
+                        <div class="all">
+                            <p><a href="#">Find a Store</a></p>
+                            <p><a href="#">Genius Bar</a></p>
+                            <p><a href="#">Today at Apple</a></p>
+                            <p><a href="#">Apple Camp</a></p>
+                            <p><a href="#">Apple Store App</a></p>
+                            <p><a href="#">Refurbished and Clearance</a></p>
+                            <p><a href="#">Financing</a></p>
+                            <p><a href="#">Apple Trade In</a></p>
+                            <p><a href="#">Order Status</a></p>
+                            <p><a href="#">Shopping Help</a></p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3">
+                        <p class="text-black h5">For Business</p>
+                        <div class="all">
+                            <p><a href="#">Apple and Business</a></p>
+                            <p><a href="#">Shop for Business</a></p>
+                            <p class="h5">For Education</p>
+                            <p><a href="#">Apple and Education</a></p>
+                            <p><a href="#">Shop for K-12</a></p>
+                            <p><a href="#">Shop for College</a></p>
+                            <p class="h5">For Healthcare</p>
+                            <p><a href="#">Apple in Healthcare
+                                </a></p>
+                            <p><a href="#">Health on Apple Watch
+                                </a></p>
+                            <p><a href="#">Health Records on iPhone
+                                </a></p>
+
+                            <p class="h5">For Government</p>
+                            <p><a href="#">Shop for Government</a></p>
+                            <p><a href="#">Shop for Veterans and Military</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col col-lg-2">
+                        <p class="text-black h5">Apple Values</p>
+                        <div class="all">
+                            <p><a href="#">Accessibility</a></p>
+                            <p><a href="#">Education</a></p>
+                            <p><a href="#">Environment</a></p>
+                            <p><a href="#">Inclusion and Diversity</a></p>
+                            <p><a href="#">Privacy</a></p>
+                            <p><a href="#">Racial Equity and Justice</a></p>
+                            <p><a href="#">Supplier Responsibility</a></p>
+                            <p class="h5">About Apple</p>
+                            <p><a href="#">Newsroom</a></p>
+                            <p><a href="#">Apple Leadership</a></p>
+                            <p><a href="#">Career Opportunities</a></p>
+                            <p><a href="#">Investors</a></p>
+                            <p><a href="#">Ethics & Compliance</a></p>
+                            <p><a href="#">Events</a></p>
+                            <p><a href="#">Contact Apple</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex">
+                        <span class="h5 text-secondary">More ways to shop:</span>
+                        &nbsp;
+                        <div class="all">
+                            <p> <a href="#">Find an Apple Store</a></p>
+                        </div>
+                        &nbsp;
+                        <span class="fs-6 text-secondary"> or</span>
+                        &nbsp;
+                        <div class="all">
+                            <p><a href="#">other retailer</a></p>
+                        </div>
+                        &nbsp;
+                        <p class="h5 text-secondary">near you.</p>
+                        &nbsp;
+                        <p class="h5 text-secondary">Or call 1-800-MY-APPLE.</p>
+                    </div>
+
+                </div>
+                <p class="border-bottom border-secondary border-2"></p>
+                <div class="row">
+                    <p class="h5 text-secondary">Copyright © 2022 Apple Inc. All rights reserved.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-md-none" style=" background: rgb(240, 237, 237);">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="my-2">
+                            <img src="iimages/logo5.png" alt="" class="color7 mb-2">
+                            <p class="d-inline h5 text-black ms-4">iphone</p>
+                            <p class="border-top border-secondary border-2 mb-2"></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion  accordion-flush" id="accordionExample">
+                            <div class="accordion-item">
+                                <p class="accordion-header" id="headingOne">
+                                    <button class="accordion-button text-black h5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Shop and Learn
+                                    </button>
+                                </p>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body all">
+                                        <p><a href="#">store</a></p>
+                                        <p><a href="#">Mac</a></p>
+                                        <p><a href="#">iPad</a></p>
+                                        <p><a href="#">iPhone</a></p>
+                                        <p><a href="#">Watch</a></p>
+                                        <p><a href="#">AirPods</a></p>
+                                        <p><a href="#">TV & Home</a></p>
+                                        <p><a href="#">AirTag</a></p>
+                                        <p><a href="#">accessories</a></p>
+                                        <p><a href="#">Gift Cards</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion  accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-black h5" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Services
+                                </button>
+                            </p>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body all">
+                                    <p><a href="#">Apple Music
+                                        </a></p>
+                                    <p><a href="#">Apple TV+
+                                        </a></p>
+                                    <p><a href="#">Apple Fitness+
+                                        </a></p>
+                                    <p><a href="#">Apple News+</a></p>
+                                    <p><a href="#">Apple Arcade</a></p>
+                                    <p><a href="#">iCloud</a></p>
+                                    <p><a href="#">Apple One</a></p>
+                                    <p><a href="#">Apple Card</a></p>
+                                    <p><a href="#">Apple Books</a></p>
+                                    <p><a href="#">Apple Podcasts</a></p>
+                                    <p><a href="#">App Store</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion  accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-black h5" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Apple Store
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body all">
+                                    <p><a href="#">Find a Store</a></p>
+                                    <p><a href="#">Genius Bar</a></p>
+                                    <p><a href="#">Today at Apple</a></p>
+                                    <p><a href="#">Apple Camp</a></p>
+                                    <p><a href="#">Apple Store App</a></p>
+                                    <p><a href="#">Refurbished and Clearance</a></p>
+                                    <p><a href="#">Financing</a></p>
+                                    <p><a href="#">Apple Trade In</a></p>
+                                    <p><a href="#">Order Status</a></p>
+                                    <p><a href="#">Shopping Help</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-black h5" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    For Business
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body all">
+                                    <p><a href="#">Apple and Business</a></p>
+                                    <p><a href="#">Shop for Business</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-black h5" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Apple Values
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body all">
+                                    <p><a href="#">Accessibility</a></p>
+                                    <p><a href="#">Education</a></p>
+                                    <p><a href="#">Environment</a></p>
+                                    <p><a href="#">Inclusion and Diversity</a></p>
+                                    <p><a href="#">Privacy</a></p>
+                                    <p><a href="#">Racial Equity and Justice</a></p>
+                                    <p><a href="#">Supplier Responsibility</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-block d-md-none">
+            <div class="row">
+                <div class="col">
+                    <p class="fs-6 text-secondary d-inline">More ways to shop:</p>
+                    <div class="all d-inline">
+                        <p class="d-inline"> <a href="#">Find an Apple Store</a></p>
+                    </div>
+                    <p class="fs-6 text-secondary d-inline">or</p>
+                    <div class="all d-inline">
+                        <p class="d-inline"><a href="#">other retailer</a></p>
+                    </div>
+                    <p class="fs-6 text-secondary d-inline">near you.</p>
+                    <p class="fs-6 text-secondary d-inline">Or call 1-800-MY-APPLE.</p>
+                </div>
+
+            </div>
+            <p class="border-bottom border-secondary border-2"></p>
+            <div class="row">
+                <p class="fs-6 text-secondary">Copyright © 2022 Apple Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
